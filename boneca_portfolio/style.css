@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boneca {
+    position: relative;
+    cursor: grab;
+    transform-origin: top center;
+    transition: transform 0.1s linear;
+}
+#cabeca, #corpo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
